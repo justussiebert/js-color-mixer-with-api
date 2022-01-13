@@ -146,7 +146,6 @@ buttonColorRandom.addEventListener("click", function (e) {
   getRandomColorsFromApi();
 });
 
-//const redSlider = document.querySelector("#red");
 let theButtons = document.querySelectorAll(".changeColorButton");
 
 window.onload = function () {
