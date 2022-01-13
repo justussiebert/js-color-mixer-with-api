@@ -131,7 +131,6 @@ function handleButtonClickEvent(buttonColorValue) {
 }
 
 headerMain.addEventListener("input", handleInputEvent);
-//headerMain.addEventListener("range", handleInputEvent);
 
 buttonColorRed.addEventListener("click", function (e) {
   handleButtonClickEvent(buttonColorRed.value);
