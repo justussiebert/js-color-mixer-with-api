@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+header {
+  background-color: #ccc;
+  padding: 2vmin 0 2vmin 1vmin;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+}
+main {
+  width: 100%;
+  min-height: 100px;
+}
+
+input[type="range"] {
+}
+.red {
+  accent-color: red;
+}
+.green {
+  accent-color: green;
+}
+.blue {
+  accent-color: blue;
+}
+
+#containerToShowColorCode {
+  display: inline-block;
+  padding: 1vmin;
+  background-color: #fff;
+  margin-left: 1vmin;
+}
+
+#buttonRed {
+  background-color: #ff0000;
+}
+#buttonGreen {
+  background-color: #00ff00;
+}
+#buttonBlue {
+  background-color: #0000ff;
+}

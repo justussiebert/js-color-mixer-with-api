@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Mixer with API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="headerMain">
+      <label for="red">Red</label
+      ><input
+        type="range"
+        class="red"
+        id="red"
+        step="1"
+        min="0"
+        max="255"
+        value="50"
+      />
+      <label for="green">Green</label
+      ><input
+        type="range"
+        class="green"
+        id="green"
+        step="1"
+        min="0"
+        max="255"
+        value="50"
+      />
+      <label for="blue">Blue</label
+      ><input
+        type="range"
+        class="blue"
+        id="blue"
+        step="1"
+        min="0"
+        max="255"
+        value="50"
+      />
+      <div id="containerToShowColorCode">x</div>
+      <button id="buttonRed" class="changeColorButton" value="red">Rot</button>
+      <button id="buttonGreen" class="changeColorButton" value="green">
+        Grün
+      </button>
+      <button id="buttonBlue" class="changeColorButton" value="blue">
+        Blau
+      </button>
+      <button id="buttonRandom" class="changeColorButton" value="random">
+        Random Color
+      </button>
+    </header>
+    <main></main>
+    <script src="script.js"></script>
+  </body>
+</html>
